@@ -16,7 +16,7 @@ st.markdown("""
     .metric-card { background-color: #1a1a1a; padding: 15px; border-radius: 10px; border-left: 5px solid #e10600; }
     .purple-sector { color: #b624ff; font-weight: bold; }
     </style>
-    """, unsafe_allow_name_with_html=True)
+    """, unsafe_allow_html=True)
 
 st.title("🏁 F1 TV : Digital Twin & Telemetry Command")
 
